@@ -17,7 +17,7 @@ public interface BiometricCallback {
 
     void onAuthenticationCancelled();
 
-    void onAuthenticationSuccessful();
+    void onAuthenticationSuccessful(BiometricAuthenticationResult results);
 
     void onAuthenticationHelp(int helpCode, CharSequence helpString);
 
